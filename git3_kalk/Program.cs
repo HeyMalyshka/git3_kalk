@@ -6,46 +6,51 @@ namespace git3_kalk
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
+
+            else if (z == 5)
+                Console.WriteLine("a! = ");
+            int factorial = 1;
+            for (int i = 1; i <= a; i++)
+                factorial *= i;
+            Console.Write(factorial);
+
+
+
+
             if (z == 1)
             {
                 Console.WriteLine(a + b);
             }
->>>>>>> Vtal1
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> d09a4d8c30b739230f309cbb4a696b6847a6456e
-            else if (z == 2)
+           else if (z == 2)
             {
                 Console.WriteLine(a - b);
             }
-<<<<<<< HEAD
->>>>>>> Vital2
-=======
+
             else if (z == 6)
                 Console.WriteLine("koren a = " + Math.Sqrt(a));
 
->>>>>>> art2
-=======
 
-=======
             else if (z == 3)
                 Console.WriteLine("a*b = " + a*b);
             
->>>>>>> ilona1
-=======
+
             else if (z == 4)
                 Console.WriteLine("a/b = " + a / b);
->>>>>>> art1
->>>>>>> d09a4d8c30b739230f309cbb4a696b6847a6456e
->>>>>>> 95ef6aadf1413d67ddcf7144e116d247da90bfe6
+
+
+            else if (z == 6)
+                Console.WriteLine("koren a = " + Math.Sqrt(a));
+
+
+            else if (z == 3)
+                Console.WriteLine("a*b = " + a*b);
+            
+            else if (z == 4)
+                Console.WriteLine("a/b = " + a / b);
+
+
+
         }
     }
 }
