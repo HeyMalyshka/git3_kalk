@@ -6,7 +6,14 @@ namespace git3_kalk
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
+=======
+            if (z == 1)
+            {
+                Console.WriteLine(a + b);
+            }
+>>>>>>> Vtal1
         }
     }
 }
