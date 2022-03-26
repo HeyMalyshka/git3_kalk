@@ -8,6 +8,7 @@ namespace git3_kalk
         {
             else if (z == 6)
                 Console.WriteLine("koren a = " + Math.Sqrt(a));
+
         }
     }
 }
