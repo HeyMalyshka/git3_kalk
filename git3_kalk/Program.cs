@@ -7,6 +7,7 @@ namespace git3_kalk
         static void Main(string[] args)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             else if (z == 2)
@@ -14,6 +15,11 @@ namespace git3_kalk
                 Console.WriteLine(a - b);
             }
 >>>>>>> Vital2
+=======
+            else if (z == 6)
+                Console.WriteLine("koren a = " + Math.Sqrt(a));
+
+>>>>>>> art2
         }
     }
 }
