@@ -6,7 +6,14 @@ namespace git3_kalk
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
+=======
+            else if (z == 2)
+            {
+                Console.WriteLine(a - b);
+            }
+>>>>>>> Vital2
         }
     }
 }
