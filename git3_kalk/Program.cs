@@ -6,9 +6,10 @@ namespace git3_kalk
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            else if (z == 2)
+            {
+                Console.WriteLine(a - b);
+            }
         }
     }
 }
